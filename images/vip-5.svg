@@ -1,0 +1,114 @@
+﻿<svg width="370" height="370" viewBox="0 0 370 370" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VIP 5 icon">
+  <defs>
+    <radialGradient id="vip5_halo" cx="50%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#C9F9FF" stop-opacity="0.88"/>
+      <stop offset="36%" stop-color="#35D8FF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#0B3475" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vip5_edge" x1="70" y1="50" x2="302" y2="324" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F4FEFF"/>
+      <stop offset="16%" stop-color="#C9F9FF"/>
+      <stop offset="37%" stop-color="#2F8DFF"/>
+      <stop offset="62%" stop-color="#0B3475"/>
+      <stop offset="82%" stop-color="#2F8DFF"/>
+      <stop offset="100%" stop-color="#F4FEFF"/>
+    </linearGradient>
+    <linearGradient id="vip5_inner" x1="115" y1="82" x2="260" y2="287" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2F8DFF"/>
+      <stop offset="44%" stop-color="#0B3475"/>
+      <stop offset="100%" stop-color="#05060A"/>
+    </linearGradient>
+    <radialGradient id="vip5_jewel" cx="43%" cy="31%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="21%" stop-color="#C9F9FF"/>
+      <stop offset="54%" stop-color="#2F8DFF"/>
+      <stop offset="100%" stop-color="#0B3475"/>
+    </radialGradient>
+    <linearGradient id="vip5_text" x1="118" y1="151" x2="246" y2="227" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#F4FEFF"/>
+      <stop offset="100%" stop-color="#2F8DFF"/>
+    </linearGradient>
+    <filter id="vip5_drop" x="-25%" y="-25%" width="150%" height="155%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#000000" flood-opacity="0.76"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#35D8FF" flood-opacity="0.54"/>
+    </filter>
+    <filter id="vip5_glow" x="-70%" y="-70%" width="240%" height="240%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="vip5_cut">
+      <path d="M185 58L279 98L308 190L250 291L185 322L120 291L62 190L91 98L185 58Z"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="185" cy="185" r="168" fill="url(#vip5_halo)"/>
+
+  <g filter="url(#vip5_glow)" opacity="0.8">
+    <path d="M185 22L196 59L229 37L224 76L264 66L240 98L280 104L243 122L277 147L236 148L260 183L222 169L225 211L196 181L185 222L174 181L145 211L148 169L110 183L134 148L93 147L127 122L90 104L130 98L106 66L146 76L141 37L174 59L185 22Z" fill="#35D8FF" opacity="0.16"/>
+    <path d="M53 209C89 237 103 265 108 304" stroke="#35D8FF" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+    <path d="M317 209C281 237 267 265 262 304" stroke="#35D8FF" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+  </g>
+
+  <g filter="url(#vip5_drop)">
+    <path d="M185 36L297 84L333 190L267 310L185 348L103 310L37 190L73 84L185 36Z" fill="#03050C" opacity="0.82"/>
+    <path d="M185 43L290 88L323 189L260 302L185 337L110 302L47 189L80 88L185 43Z" fill="url(#vip5_edge)"/>
+    <path d="M185 60L274 98L302 188L247 286L185 316L123 286L68 188L96 98L185 60Z" fill="#070B14"/>
+    <path d="M185 70L262 103L287 187L239 272L185 300L131 272L83 187L108 103L185 70Z" fill="url(#vip5_inner)"/>
+
+    <g clip-path="url(#vip5_cut)">
+      <path d="M65 96C124 72 206 80 314 114V55H65V96Z" fill="#FFFFFF" opacity="0.18"/>
+      <path d="M79 255C124 223 226 220 292 252V326H79V255Z" fill="#000000" opacity="0.28"/>
+      <path d="M94 93L285 287" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="18"/>
+      <path d="M144 72L316 239" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="8"/>
+    </g>
+
+    <path d="M185 43L290 88L323 189L260 302L185 337L110 302L47 189L80 88L185 43Z" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="4"/>
+    <path d="M185 62L273 100L299 188L245 283L185 312L125 283L71 188L97 100L185 62Z" stroke="#000000" stroke-opacity="0.54" stroke-width="7"/>
+    <path d="M185 68L265 102L291 187L242 276L185 305L128 276L79 187L105 102L185 68Z" stroke="#35D8FF" stroke-opacity="0.48" stroke-width="3"/>
+
+    <g transform="translate(0 -3)">
+      <path d="M119 112L143 80L166 111L185 65L204 111L227 80L251 112L238 145H132L119 112Z" fill="url(#vip5_edge)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M141 111L151 96L162 112M208 112L219 96L229 111M177 112L185 89L193 112" stroke="#FFFFFF" stroke-opacity="0.48" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="143" cy="80" r="7.5" fill="#F4FEFF"/>
+      <circle cx="185" cy="65" r="8.5" fill="#F4FEFF"/>
+      <circle cx="227" cy="80" r="7.5" fill="#F4FEFF"/>
+      <path d="M136 132H234" stroke="#05060A" stroke-opacity="0.54" stroke-width="7" stroke-linecap="round"/>
+      <path d="M137 126H233" stroke="#FFFFFF" stroke-opacity="0.46" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(0 3)">
+      <path d="M185 114L247 150L225 231L185 257L145 231L123 150L185 114Z" fill="#03050C" opacity="0.55"/>
+      <path d="M185 104L255 145L231 233L185 266L139 233L115 145L185 104Z" fill="url(#vip5_jewel)" stroke="#FFFFFF" stroke-opacity="0.74" stroke-width="4"/>
+      <path d="M185 104L205 145L185 266L165 145L185 104Z" fill="#FFFFFF" opacity="0.22"/>
+      <path d="M115 145H255L231 233H139L115 145Z" fill="#000000" opacity="0.17"/>
+      <path d="M115 145L185 104L255 145L205 145L185 127L165 145L115 145Z" fill="#FFFFFF" opacity="0.30"/>
+      <path d="M115 145H255M139 233L165 145L185 104L205 145L231 233M165 145H205M185 127V266" stroke="#FFFFFF" stroke-opacity="0.42" stroke-width="2"/>
+    </g>
+
+    <text x="185" y="207" text-anchor="middle" font-family="Arial Black, Impact, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="0" fill="url(#vip5_text)" stroke="#03050C" stroke-width="8" paint-order="stroke">VIP</text>
+
+    <g>
+      <path d="M135 227H235L253 252L235 278H135L117 252L135 227Z" fill="#03050C" opacity="0.9"/>
+      <path d="M141 233H229L242 252L229 271H141L128 252L141 233Z" fill="url(#vip5_edge)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="3"/>
+      <text x="185" y="265" text-anchor="middle" font-family="Arial Black, Impact, Arial, sans-serif" font-size="43" font-weight="900" letter-spacing="0" fill="#FFFFFF" stroke="#03050C" stroke-width="6" paint-order="stroke">5</text>
+    </g>
+
+    <g opacity="0.96">
+    <circle cx="115" cy="286" r="3.2" fill="#F4FEFF" opacity="0.88"/>
+    <circle cx="130.5" cy="294" r="3.2" fill="#F4FEFF" opacity="0.88"/>
+    <circle cx="146" cy="286" r="3.2" fill="#F4FEFF" opacity="0.88"/>
+    <circle cx="161.5" cy="294" r="3.2" fill="#F4FEFF" opacity="0.88"/>
+    <circle cx="177" cy="286" r="3.2" fill="#F4FEFF" opacity="0.88"/>
+    </g>
+  </g>
+
+  <g filter="url(#vip5_glow)">
+    <path d="M76 73L83 91L101 98L83 105L76 123L69 105L51 98L69 91L76 73Z" fill="#F4FEFF" opacity="0.92"/>
+    <path d="M298 67L304 81L318 87L304 93L298 107L292 93L278 87L292 81L298 67Z" fill="#35D8FF" opacity="0.86"/>
+    <path d="M310 236L316 249L329 255L316 261L310 274L304 261L291 255L304 249L310 236Z" fill="#F4FEFF" opacity="0.74"/>
+  </g>
+</svg>
